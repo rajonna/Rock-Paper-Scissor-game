@@ -45,3 +45,21 @@ body{
   cursor: pointer;
   transform: scale(1.2);
 }
+@media (max-width: 500px) {
+  .header{
+    font-size: 20px;
+  }
+  .display{
+    width: 200px;
+  }
+  #score{
+    font-size: 12px;
+  }
+  .choices{
+    width: 200px;
+  }
+  .choices .choicepic{
+    height: 50px;
+    border-radius: 50%;
+  }
+}
