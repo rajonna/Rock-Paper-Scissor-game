@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;600&display=swap');
+body{
+  margin: 0;
+  font-family:Readex Pro;
+}
+.header{
+  margin: 80px auto;
+  text-align: center;
+  font-family:Readex Pro;
+  font-size: 40px;
+}
+.scoreboard{
+  align-items: center;
+  width: 200px;
+  margin: -10px auto;
+  text-align: center;
+}
+.user{
+  float: left;
+}
+.comp{
+  float: right;
+}
+.display{
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  margin: 50px auto;
+}
+#score{
+  word-spacing: 20px;
+}
+.choices{
+  margin: -30px auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choices .choicepic{
+  height: 90px;
+  border-radius: 50%;
+}
+.choice:hover .choicepic{
+  cursor: pointer;
+  transform: scale(1.2);
+}
